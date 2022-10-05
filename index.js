@@ -1,4 +1,6 @@
-let a = [1,2,3].map(function f(x){
-    return x*2;
-})
-console.log(a)
+var btn = document.querySelector("button");
+var input = document.querySelector("input");
+
+function f(){
+    input.value ="";
+}
